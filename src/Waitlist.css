@@ -1,15 +1,29 @@
-waitlist-wrapper {
+#waitlist-wrapper {
 
-
-}
-
-#enter {
-    color; white
+    margin: auto;
+    padding: 1.65rem;
+    border-radius: 1%;
+display: inline-block;
     background: #ffc16b;
+    width: 41aws;
 
 }
+
 
 input {
-  padding: 0.78rem;
-  border-radius: 8%;
+  padding: 0.38rem;
+  border-radius: 5%;
+  border-style: groove;
+  float: left
+}
+
+button {
+
+    padding: 0.38rem;
+    border-radius: 5%;
+    border-style: groove;
+    float: left;
+    margin: axiosk;
+    border-color: yellow;
+
 }
