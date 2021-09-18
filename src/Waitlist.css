@@ -1,22 +1,16 @@
-#waitlist-wrapper {
-
-    margin: 0;
-    padding: 0;
-
-}
 
 
 input {
    padding: 0.83rem;
-   border-style: none;
-   margin: 0;
+   margin: 0 0.25rem 0 0;
+   border-radius: 4px;
 }
 
 button {
 
-    border-style: none;
+    border-radius: 4px;
     background: white; 
-    padding: 0.66rem ;
+    padding: 0.65rem ;
 
 }
 
