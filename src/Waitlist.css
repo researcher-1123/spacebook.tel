@@ -1,10 +1,9 @@
 #waitlist-wrapper {
 
     margin: auto;
-    padding: 1.65rem;
+    padding: .65rem 1rem 0.65rem 0.65rem;
     border-radius: 1%;
-display: inline-block;
-    background: #ffc16b;
+    display: inline;
     width: 41aws;
 
 }
@@ -13,8 +12,8 @@ display: inline-block;
 input {
   padding: 0.38rem;
   border-radius: 5%;
-  border-style: groove;
-  float: left
+  border-style: outset groove 2px navy;
+  margin: 0.1rem;
 }
 
 button {
@@ -22,8 +21,6 @@ button {
     padding: 0.38rem;
     border-radius: 5%;
     border-style: groove;
-    float: left;
-    margin: axiosk;
-    border-color: yellow;
+    margin: 0.1rem;
 
 }

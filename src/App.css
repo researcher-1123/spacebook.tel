@@ -2,6 +2,12 @@
   text-align: center;
 }
 
+#logo {
+    justify-content: left;
+    text-align: left;
+    padding-left: 1rem;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
