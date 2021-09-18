@@ -10,7 +10,7 @@ class Waitlist extends React.Component {
 
   render() {
     return (
-    <div id="waitlist-wrapper">
+    <div>
       <input type="tel" onChange={(e) => this.setState({number: e.target.value})} placeholder="+1 (267) 730 1738" id="waitlist-input" />
       <button type="submit" name="submit"  id="submit">🚀</button>
     </div>

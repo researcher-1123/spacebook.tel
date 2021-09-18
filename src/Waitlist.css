@@ -1,26 +1,27 @@
 #waitlist-wrapper {
 
-    margin: auto;
-    padding: .65rem 1rem 0.65rem 0.65rem;
-    border-radius: 1%;
-    display: inline;
-    width: 41aws;
+    margin: 0;
+    padding: 0;
 
 }
 
 
 input {
-  padding: 0.38rem;
-  border-radius: 5%;
-  border-style: outset groove 2px navy;
-  margin: 0.1rem;
+   padding: 0.83rem;
+   border-style: none;
+   margin: 0;
 }
 
 button {
 
-    padding: 0.38rem;
-    border-radius: 5%;
-    border-style: groove;
-    margin: 0.1rem;
+    border-style: none;
+    background: white; 
+    padding: 0.66rem ;
+
+}
+
+body {
+
+    background: linear-gradient(pink, violet)
 
 }
