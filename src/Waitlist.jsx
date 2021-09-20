@@ -8,11 +8,18 @@ class Waitlist extends React.Component {
     number: '' 
   }
 
+  add (e) {
+    e.preventDefault()
+    alert(this.state.number)
+  }
+
   render() {
     return (
     <div>
-      <input type="tel" onChange={(e) => this.setState({number: e.target.value})} placeholder="+1 (267) 730 1738" id="waitlist-input" />
+    <form onSubmit={(e) => this.add(e)} >
+      <input type="email" onChange={(e) => this.setState({number: e.target.value})} placeholder="tim@gmail.com" id="waitlist-input" required />
       <button type="submit" name="submit"  id="submit">🚀</button>
+    </form>
     </div>
   )}
   
